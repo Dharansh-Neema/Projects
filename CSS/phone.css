@@ -1,0 +1,44 @@
+@media only screen and (max-width: 900px) {
+  /* logo  and navigation bar*/
+  #navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  #navbar::before {
+    height: 91%;
+    width: 121%;
+  }
+
+  /* Home css */
+  #home {
+    height: 437px;
+    width: 109%;
+  }
+  #home::before {
+    height: 492px;
+    width: 120%;
+  }
+
+  /* Our Services */
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Our partner */
+
+  #partner {
+    width: 120%;
+  }
+
+  /* Contact us  */
+  #contact::before {
+    height: 100%;
+    width: 117%;
+  }
+  footer {
+    width: 121%;
+  }
+}
+
+
